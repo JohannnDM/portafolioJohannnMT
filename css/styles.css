@@ -16,12 +16,30 @@ a {
     "SHLN" 5;
 }
 .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 .in-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 90%;
     height: 80%;
-
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+}
+.image {
+    width: 100%;
+    /* height: 100%; */
 }
 /* Header Styles */
 .header {
@@ -77,6 +95,63 @@ a {
     width: 60%;
     color: white;
     font-weight: 700;
+}
+/* Projects Section Syles */
+.projects-section {
+    height: auto;
+}
+/* Skills Section Skills */
+.skills-section {
+    /* display: flex;
+    flex-direction: column; */
+    
+    background-image: url("https://i.pinimg.com/originals/6d/80/2f/6d802ffd14b32795b4deb0b886a7815a.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.skills-images-container{
+    width: 15%;
+    height: 60%;
+}
+.skills-images {
+
+}
+/* Hobbies Section Styles */
+.hobbies-section {
+
+}
+.hobbies-img-container {
+    width: 200px;
+    height: 200px;
+}
+.hobbies-img-container img {
+    width: 100%;
+}
+/* Contact Section styles */
+.contact-section {
+    background-image: url("https://i.pinimg.com/originals/81/34/08/81340844a99a35cc7993166cbd9b5866.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    height: 50px;
+    width: 60%;
+    padding: 0 10px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.mensaje {
+    text-align: initial;
+    height: 200px;
 }
 /* Footer Styles*/
 .footer {
